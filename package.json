@@ -1,0 +1,21 @@
+{
+  "name": "Nadia---Reddit",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon server/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GSG-G10/Nadia---Reddit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GSG-G10/Nadia---Reddit/issues"
+  },
+  "homepage": "https://github.com/GSG-G10/Nadia---Reddit#readme"
+}
