@@ -28,12 +28,23 @@ CREATE TABLE comments(
 );
 
 INSERT INTO users (name , username , email , password) VALUES
-('Nadia',"nadia tamimi" 'nadia.tamimi@hotmail.com', "password");
+('Nadia','nadiatamimi', 'nadia.tamimi@hotmail.com', 'password'),
+('Mara','Mara','mara.345@gmail.con','67575757'),
+('filipo','FLPO' ,'FLPO23@gmail.com','anguria'),
+('Ezabella','Ezabella','Eza@hotmail.com','como');
 
-INSERT INTO posts (title,post,user_id,created_at)VALUES
-('test title' , 'test body' , 1 , 'NOW()');
+INSERT INTO posts (title,post,user_id,time_create)VALUES
+('test title' , 'test body' , 1 , 'NOW()'),
+('sport','messi rah mn barchalona', 1 , '2016-06-22 19:10:25-07'),
+('news','aya kalam ',2,'2019-06-27 19:10:25-07'),
+('weather','hurrican in west verginia',3,'NOW()'),
+('anime','Naruto is the best anime',4,'NOW()');
 
-INSERT INTO posts (body,user_id,,post_id,created_at)VALUES
-('text' , 'test body' , 1 , 'NOW()');
+INSERT INTO comments (post,user_id,post_id,time_create)VALUES
+('text' , 1 , 1 , 'NOW()'),
+('oooh nooooooo', 1,2,'2016-06-22 23:10:25-07'),
+('OMG' , 2 , 3,'2019-06-22 23:10:25-07'),
+('GOD protect you ',3,4,'NOW()'),
+('I agree',4,5,'NOW()');
 
 COMMIT;

@@ -61,19 +61,10 @@ img {
 
 .orang {
   border: 3px solid rgb(255, 69, 0);
-  width: 25%;
+  width: 80%;
   background: rgb(255, 69, 0);
 }
-.blu {
-  border: 3px solid rgb(206, 227, 248);
-  width: 25%;
-  background: rgb(206, 227, 248);
-}
-.black {
-  border: 3px solid rgb(255, 69, 0);
-  width: 25%;
-  background: rgb(255, 69, 0);
-}
+
 .colord {
   display: flex;
   justify-content: center;
