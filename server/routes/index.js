@@ -2,7 +2,7 @@ const express= require('express');
 const {join} = require('path');
 const fs = require('fs');
 const router = express.Router();
-const getPosts = require('../controllers/getposts');
+const getPosts = require('../controllers/posts.js/getposts');
 
 
 router.get('/',(req,res) => {
