@@ -1,0 +1,1 @@
+const logInQuery = require('../../database/queries/Authentication/authQueries');
